@@ -90,11 +90,12 @@
        <table>
           <tr>
              <th></th>
-             <output>
-                <?php for ($i=1; $i<=20; $i++) echo "<th>$i</th>"; ?>
-             </output><br />
+             <!-- <output> -->
+             <?php for ($i=1; $i<=20; $i++) echo "<th>$i</th>"; ?>
+             <!-- </output><br /> -->
           </tr>
-          <output><?php for ($i=1; $i<=20; $i++){
+          <!-- <output> -->
+          <?php for ($i=1; $i<=20; $i++){
           	                echo "<tr><th>$i</th>";
           	                for ($j=1; $j<=20; $j++) {
           	                	$tmp = $i * $j;
@@ -112,7 +113,7 @@
           	                echo "</tr>";
                         }
                   ?>
-          </output><br />
+          <!-- </output><br /> -->
        </table>
        </section>
       <footer>
